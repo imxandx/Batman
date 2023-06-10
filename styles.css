@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 
 * {
-   margin: 0;
-   padding: 0;
-   background-color: black;
-   list-style: none;
-   text-decoration: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
 }
 
 header {
@@ -153,7 +153,7 @@ li:hover {
 }
 
 .banner-3 {
-    background-image: url('https://static.wikia.nocookie.net/batman/images/3/36/Jim_Gordon_Total_Film_still.webp/revision/latest?cb=20220220041206');
+    background-image: url('assets/Jim_Gordon_Total_Film_still.jpg');
 }
 
 footer {
