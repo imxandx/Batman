@@ -56,6 +56,7 @@ li:hover {
     height: 400px;
     display: flex;
     justify-content: center;
+    border-bottom: 2px solid #6d44b8;
 }
 
 .content {
@@ -190,9 +191,9 @@ span {
     justify-content: center;
 }
 
-/*Responsividade*/
+/*RESPONSIVIDADE*/
 
-@media screen and (max-width: 1125px) {
+@media screen and (max-width: 1179px) {
     header {
         height: 70px;
     }
@@ -227,7 +228,7 @@ span {
     }
     
     .actor-cards-container {
-        margin-top: 30px;
+        margin-top: 20%;
     }
     
     .card {
@@ -245,9 +246,13 @@ span {
         grid-template-columns: repeat(2, 1fr);
         column-gap: 20px;
     }
+
+    #trailer-container {
+        border-bottom: none;
+    }
 }
 
-@media screen and (max-width: 865px) {
+@media screen and (max-width: 768px) {
     header {
         height: 60px;
     }
@@ -281,7 +286,7 @@ span {
     }
     
     .actor-cards-container {
-        margin-top: 30px;
+        margin-top: 25%;
     }
     
     .card {
@@ -300,9 +305,18 @@ span {
         row-gap: 20px;
         column-gap: 0;
     }
+
+    .trailer {
+        height: 200px;
+        width: 300px;
+    }
+
+    #trailer-container {
+        border-bottom: none;
+    }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
     header {
         height: 50px;
     }
@@ -316,8 +330,8 @@ span {
     }
     
     .trailer {
-        height: 100%;
-        width: 100%;
+        height: 300px;
+        width: 270px;
     }
 
     .description {
@@ -341,5 +355,9 @@ span {
     
     footer {
         height: 150px;
+    }
+
+    #trailer-container {
+        border-bottom: none;
     }
 }
